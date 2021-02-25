@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B54140F25E7467C00E642ED /* ObstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54140E25E7467C00E642ED /* ObstApp.swift */; };
+		9B54141125E7467C00E642ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54141025E7467C00E642ED /* ContentView.swift */; };
+		9B54141325E7467D00E642ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B54141225E7467D00E642ED /* Assets.xcassets */; };
+		9B54141625E7467D00E642ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B54141525E7467D00E642ED /* Preview Assets.xcassets */; };
+		9B54142225E74D9D00E642ED /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54142125E74D9D00E642ED /* FruitCardView.swift */; };
+		9B54142525E7547600E642ED /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54142425E7547600E642ED /* StartButtonView.swift */; };
+		9B54142825E7577700E642ED /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54142725E7577700E642ED /* OnboardingView.swift */; };
+		9B54142C25E7599700E642ED /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54142B25E7599700E642ED /* FruitModel.swift */; };
+		9B54143125E75AC000E642ED /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54143025E75AC000E642ED /* FruitData.swift */; };
+		9B54144A25E8430300E642ED /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54144925E8430300E642ED /* FruitRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B54140B25E7467C00E642ED /* Obst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B54140E25E7467C00E642ED /* ObstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstApp.swift; sourceTree = "<group>"; };
+		9B54141025E7467C00E642ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B54141225E7467D00E642ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B54141525E7467D00E642ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B54141725E7467D00E642ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B54142125E74D9D00E642ED /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		9B54142425E7547600E642ED /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		9B54142725E7577700E642ED /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		9B54142B25E7599700E642ED /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		9B54143025E75AC000E642ED /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		9B54144925E8430300E642ED /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B54140825E7467C00E642ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B54140225E7467C00E642ED = {
+			isa = PBXGroup;
+			children = (
+				9B54140D25E7467C00E642ED /* Obst */,
+				9B54140C25E7467C00E642ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B54140C25E7467C00E642ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B54140B25E7467C00E642ED /* Obst.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B54140D25E7467C00E642ED /* Obst */ = {
+			isa = PBXGroup;
+			children = (
+				9B54142F25E75AAC00E642ED /* Data */,
+				9B54142A25E7597F00E642ED /* Model */,
+				9B54142025E74D7100E642ED /* View */,
+				9B54141E25E74C6B00E642ED /* App */,
+				9B54141225E7467D00E642ED /* Assets.xcassets */,
+				9B54141725E7467D00E642ED /* Info.plist */,
+				9B54141425E7467D00E642ED /* Preview Content */,
+			);
+			path = Obst;
+			sourceTree = "<group>";
+		};
+		9B54141425E7467D00E642ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B54141525E7467D00E642ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B54141E25E74C6B00E642ED /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9B54140E25E7467C00E642ED /* ObstApp.swift */,
+				9B54141025E7467C00E642ED /* ContentView.swift */,
+				9B54142725E7577700E642ED /* OnboardingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9B54142025E74D7100E642ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B54142125E74D9D00E642ED /* FruitCardView.swift */,
+				9B54142425E7547600E642ED /* StartButtonView.swift */,
+				9B54144925E8430300E642ED /* FruitRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B54142A25E7597F00E642ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B54142B25E7599700E642ED /* FruitModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B54142F25E75AAC00E642ED /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9B54143025E75AC000E642ED /* FruitData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B54140A25E7467C00E642ED /* Obst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B54141A25E7467D00E642ED /* Build configuration list for PBXNativeTarget "Obst" */;
+			buildPhases = (
+				9B54140725E7467C00E642ED /* Sources */,
+				9B54140825E7467C00E642ED /* Frameworks */,
+				9B54140925E7467C00E642ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Obst;
+			productName = Obst;
+			productReference = 9B54140B25E7467C00E642ED /* Obst.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B54140325E7467C00E642ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					9B54140A25E7467C00E642ED = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 9B54140625E7467C00E642ED /* Build configuration list for PBXProject "Obst" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B54140225E7467C00E642ED;
+			productRefGroup = 9B54140C25E7467C00E642ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B54140A25E7467C00E642ED /* Obst */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B54140925E7467C00E642ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B54141625E7467D00E642ED /* Preview Assets.xcassets in Resources */,
+				9B54141325E7467D00E642ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B54140725E7467C00E642ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B54143125E75AC000E642ED /* FruitData.swift in Sources */,
+				9B54142225E74D9D00E642ED /* FruitCardView.swift in Sources */,
+				9B54144A25E8430300E642ED /* FruitRowView.swift in Sources */,
+				9B54142525E7547600E642ED /* StartButtonView.swift in Sources */,
+				9B54141125E7467C00E642ED /* ContentView.swift in Sources */,
+				9B54142825E7577700E642ED /* OnboardingView.swift in Sources */,
+				9B54142C25E7599700E642ED /* FruitModel.swift in Sources */,
+				9B54140F25E7467C00E642ED /* ObstApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B54141825E7467D00E642ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B54141925E7467D00E642ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B54141B25E7467D00E642ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Obst/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Obst/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ajkinder.Obst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B54141C25E7467D00E642ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Obst/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Obst/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ajkinder.Obst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B54140625E7467C00E642ED /* Build configuration list for PBXProject "Obst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B54141825E7467D00E642ED /* Debug */,
+				9B54141925E7467D00E642ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B54141A25E7467D00E642ED /* Build configuration list for PBXNativeTarget "Obst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B54141B25E7467D00E642ED /* Debug */,
+				9B54141C25E7467D00E642ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B54140325E7467C00E642ED /* Project object */;
+}
