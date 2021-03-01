@@ -16,7 +16,7 @@ struct FruitRowView: View {
     var body: some View {
         HStack {
             Image(fruit.image)
-                .renderingMode(.original)
+                .renderingMode(.original) // To avoid defualt system behavior
                 .resizable()
                 .scaledToFit()
                 .frame(width: 80, height: 80, alignment: .center)
@@ -25,7 +25,17 @@ struct FruitRowView: View {
                     LinearGradient(gradient: Gradient(colors: fruit.gradientColors), startPoint: .top, endPoint: .trailing)
                 )
                 .cornerRadius(8)
-            } //: HStack
+            
+            VStack(alignment: .leading, spacing: 5) {
+                Text(fruit.title)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                
+                Text(fruit.headline)
+                    .font(.caption)
+                    .foregroundColor(Color.secondary)
+            } //: VSTACK
+        } //: HStack
     }
 }
 
