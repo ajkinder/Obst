@@ -38,12 +38,16 @@ struct SettingsView: View {
                     
                     GroupBox(label: SettingsLabelView(labelText: "Application", labelImage: "apps.icon")
                     ) {
-                        Divider().padding(.vertical, 4)
                         
-                        HStack {
-                            Text("Developr").foregroundColor(.gray)
-                            Spacer()
-                            Text("John / Jane")
+                        SettingsRowView(name: "Developer", content: "Alexander Kinder")
+                        SettingsRowView(name: "Website", linkLabel: "Github", linkDestination: "github.com/ajkinder")
+                        SettingsRowView(name: "Designer", content: "Robert Petras")
+                        SettingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
+                        SettingsRowView(name: "Compatability", content: "iOS 14")
+                        
+                        SettingsRowView(name: "SwiftUI", content: "2.0")
+                        SettingsRowView(name: "Version", content: "1.1.0")
+                        
                         }//: HSTACK
                     } //: GROUPBOX
                     
@@ -61,7 +65,6 @@ struct SettingsView: View {
             } //: SCROLL
         } //: NAVIGATION
     }
-}
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
